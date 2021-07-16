@@ -134,3 +134,39 @@
       transform: translateY(-200px);
   }
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 996px) {
+  .container {
+    width: 100%;
+  }
+  .info {
+    width: 100%;
+  }
+  .info h1 {
+    font-size: 3rem;
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0 20px 35px 20px;
+    box-sizing: border-box;
+  }
+  .social {
+    width: 100%;
+  }
+  .social ul {
+    flex-direction: column;
+  }
+  .social_head {
+    flex-direction: row;
+    margin-left: 20px;
+  }
+  .social_head h2 {
+    width: auto;
+    margin: 15px 20px;
+  }
+  .mail_phone {
+    box-sizing: border-box;
+    padding-left: 0px;
+  }
+}
