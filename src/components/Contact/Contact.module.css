@@ -1,0 +1,136 @@
+.container {
+  position: relative;
+  margin-top: 155px;
+  width: 100%;
+  user-select: none;
+  animation: load_contact 0.3s;
+  display: flex;
+  border-bottom: 1px solid #222424;
+  margin-bottom: 30px;
+}
+
+.info {
+  width: 60%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.info h1 {
+  font-size: 4rem;
+  letter-spacing: -4px;
+  width: 100%;
+  padding: 0 25px 35px 0;
+  margin-left: 25px;
+  border-bottom: 1px solid #222424;
+  margin-bottom: 15px;
+}
+
+.info p {
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 50px;
+  font-weight: 300;
+  margin: 15px 0;
+  color: #787c82;
+}
+
+.social_head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
+  font-size: 2rem;
+}
+
+.social_head a {
+  font-size: 2rem;
+}
+
+.social_head h2 {
+  font-size: 2rem;
+  letter-spacing: -2px;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+.social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social ul li a {
+  color: #787c82;
+  transition: all 0.3s ease-in-out;
+}
+
+.social ul li:nth-child(1):hover a {
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.social ul li:nth-child(2):hover a {
+  color: #0e76a8;
+  transition: all 0.3s ease-in-out;
+}
+
+.social ul li:nth-child(3):hover a {
+  color: #00bb2d;
+  transition: all 0.3s ease-in-out;
+}
+
+.social ul li:nth-child(4):hover a {
+  color: #3b5998;
+  transition: all 0.3s ease-in-out;
+}
+
+.social ul li:nth-child(5):hover a {
+  color: #C13584;
+  transition: all 0.3s ease-in-out;
+}
+
+.social ul li:nth-child(6):hover a {
+  color: #00acee;
+  transition: all 0.3s ease-in-out;
+}
+
+.mail_phone {
+  display: flex;
+  width: 100%;
+  padding-left: 50px;
+}
+
+.mail, .phone {
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  color: #787c82;
+  padding: 20px;
+}
+
+.mail a, .phone a {
+  color: #787c82;
+  margin: 5px 0;
+  transition: all 0.3s;
+}
+
+.mail a:hover, .phone a:hover {
+  color: #64ff70;
+  transition: all 0.3s;
+}
+
+.phone {
+  border-right:1px solid #222424;;
+}
+
+/* ANIMATIONS */
+@keyframes load_contact {
+  0% {
+      transform: translateY(-200px);
+  }
+}
