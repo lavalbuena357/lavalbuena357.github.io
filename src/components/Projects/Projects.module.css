@@ -98,13 +98,6 @@
   text-align: justify;
 }
 
-/* ANIMATIONS */
-/* @keyframes load_projects {
-  0% {
-      transform: translateY(-200px);
-  }
-} */
-
 /* RESPONSIVE */
 @media only screen and (max-width: 1180px) {
   .info h1 {
