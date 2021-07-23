@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Main.module.css';
 import profile from '../../utils/images/profile.png';
+import { skills, learn } from '../../utils/skillsData';
 import { Link } from 'react-router-dom';
 
 function Main() {
@@ -21,13 +22,35 @@ function Main() {
                     y limpia para llevar cada proyecto a los resultados esperados por mis clientes y/o grupo de trabajo
                     en el que me encuentre desarrollando.
                 </p>
-                <p>Lo invito a visitar mi <Link to='/portafolio'>Portafolio</Link> para que tenga la oportunidad 
-                    de ver un poco de mi trabajo.
-                </p>
             </div>
             <div className={styles.picture}>
                 <img src={profile} alt="foto de perfil albert valbuena" />
             </div>
+            <div className={styles.skills}>
+                <h3>Habilidades aprendidas:</h3>
+                <div className={styles.skills_ctn}>
+                    {skills.map((el, i) => 
+                        <div className={styles.skill_item} key={i}>
+                            <span>{el.icon}</span>
+                            <span>{el.name}</span>
+                        </div>
+                    )}
+                </div>
+            </div>
+            <div className={styles.learns}>
+                <h3>Habilidades pendientes o en progreso</h3>
+                <div className={styles.learns_ctn}>
+                    {learn.map((el, i) => 
+                        <div className={styles.learn_item} key={i}>
+                            <span>{el.icon}</span>
+                            <span>{el.name}</span>
+                        </div>
+                    )}
+                </div>
+            </div>
+            <p className={styles.invite}>Lo invito a visitar mi <Link to='/portafolio'>Portafolio</Link> para que tenga la oportunidad 
+                    de ver un poco de mi trabajo.
+            </p>
         </div>
     )
 };

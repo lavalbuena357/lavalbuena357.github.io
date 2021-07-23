@@ -4,15 +4,15 @@
   width: 100%;
   user-select: none;
   animation: load_main 0.3s;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
   border-bottom: 1px solid #222424;
   margin-bottom: 30px;
-  display: flex;
   height: 100%;
 }
 
 .info {
-  width: 60%;
+  width: 100%;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -38,23 +38,23 @@
   color: #c0c0c0;
 }
 
-.info p {
+.info p, .invite {
   margin: 15px 0;
   color: #787c82;
 }
 
-.info a {
+.info a, .invite a {
   color: #c0c0c0;
   transition: all 0.3s;
 }
 
-.info a:hover {
+.info a:hover, .invite a:hover {
   color: #fff;
   transition: all 0.3s;
 }
 
 .picture {
-  width: 40%;
+  width: 100%;
   margin-top: 25px;
   display: flex;
   align-items: center;
@@ -64,6 +64,32 @@
 .picture img {
   width: 60%;
   animation: load_image 3s;
+}
+
+.skills_ctn, .learns_ctn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 10px;
+}
+
+.skill_item, .learn_item {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px;
+  background-color: #222424;
+  font-size: .8rem;
+  transition: all .3s ease-in-out;
+}
+
+.skill_item:hover, .learn_item:hover {
+  color: greenyellow;
+  transition: all .3s ease-in-out;
+}
+
+.skill_item span:first-child, .learn_item span:first-child {
+  font-size: 1.5rem;
 }
 
 /* ANIMATIONS */
@@ -82,8 +108,9 @@
 /* RESPONSIVE */
 @media only screen and (max-width: 996px) {
   .container {
-    flex-direction: column-reverse;
-    margin-top: 50px;
+    /* flex-direction: column-reverse; */
+    grid-template-columns: 1fr;
+    margin-top: 100px;
   }
   .info {
     width: 100%;
@@ -102,5 +129,6 @@
 }
   .picture {
     width: 100%;
+    order: -1;
   }
 }

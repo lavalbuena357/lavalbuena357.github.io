@@ -55,7 +55,7 @@ export const skills = [
     icon: <SiNodeDotJs />,
   },
   {
-    name: 'Express',
+    name: 'Express.Js',
     icon: 'Express',
   },
   {
