@@ -2,6 +2,7 @@
 import React from 'react';
 import styles from './Projects.module.css';
 import { projects } from '../../utils/ProjectsData.js';
+import { FaGithub } from 'react-icons/fa';
 
 function Projects() {
   return (
@@ -17,9 +18,11 @@ function Projects() {
                 </a>
                 <p>{el.description}</p>
                 <a href={el.link} target='_blank'>    
-                  <img src={el.image} alt="" />
+                  {/* <iframe src={el.link} title='Nexflit Clon'></iframe> */}
+                  <object data={el.link}>Nexflit Clon</object>
                   <span>Visitar</span>
                 </a>
+                <a href={el.githubRepo} target='_blank'>Repositorio de Guthub <FaGithub className={styles.icon}/></a>
               </div>
             )
           })}
