@@ -11,7 +11,12 @@ export const projects = [
     link: 'https://countriesinfo-app.web.app/',
     githubRepo: 'https://github.com/lavalbuena357/countries-app-frontend'
   },
-  
+  {
+    title: 'Weather-App',
+    description: 'Aplicación desarrollada bajo React.Js con Redux para buscar información del clima de ciudades consumiendo datos desde una API externa.',
+    link: 'https://reatcjs-weatherapp.web.app/',
+    githubRepo: 'https://github.com/lavalbuena357/weather-app'
+  },
 ]
 
 export default projects;
