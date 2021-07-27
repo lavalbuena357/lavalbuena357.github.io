@@ -22,7 +22,7 @@ function Projects() {
                   <object data={el.link}>Nexflit Clon</object>
                   <span>Visitar</span>
                 </a>
-                <a href={el.githubRepo} target='_blank'>Repositorio de Guthub <FaGithub className={styles.icon}/></a>
+                <a href={el.githubRepo} target='_blank'>Repositorio de Github <FaGithub className={styles.icon}/></a>
               </div>
             )
           })}
