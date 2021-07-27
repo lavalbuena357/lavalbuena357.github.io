@@ -126,10 +126,6 @@ export const learn = [
     icon: <SiVueDotJs />,
   },
   {
-    name: 'Angular.Js',
-    icon: <SiAngularjs />,
-  },
-  {
     name: 'Sass',
     icon: <SiSass />,
   },
