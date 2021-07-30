@@ -17,6 +17,12 @@ export const projects = [
     link: 'https://reatcjs-weatherapp.web.app/',
     githubRepo: 'https://github.com/lavalbuena357/weather-app'
   },
+  {
+    title: 'CRUD-App',
+    description: 'Aplicación desarrollada bajo el stack MERN donde se puede agregar, ver, editar y eliminar productos.',
+    link: 'https://crudproducts-mern.web.app/',
+    githubRepo: 'https://github.com/lavalbuena357/crud-products-mern'
+  },
 ]
 
 export default projects;
