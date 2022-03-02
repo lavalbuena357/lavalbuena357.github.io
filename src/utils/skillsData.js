@@ -5,7 +5,7 @@ import {
   SiReact, 
   SiRedux,  
   SiBootstrap,
-  SiNodeDotJs, 
+  SiNodedotjs, 
   SiPostgresql, 
   SiMysql, 
   SiWordpress, 
@@ -16,14 +16,14 @@ import {
   SiAdobephotoshop,
   SiAdobeillustrator,
   SiAngularjs,
-  SiMaterialUi,
+  SiMaterialui,
   SiFirebase,
   SiGraphql,
   SiTypescript,
   SiMongodb,
-  SiVueDotJs,
+  SiVuedotjs,
   SiSass,
-  SiSocketDotIo } from "react-icons/si"; 
+  SiSocketdotio } from "react-icons/si"; 
 
 export const skills = [
   {
@@ -52,7 +52,7 @@ export const skills = [
   },
   {
     name: 'Node.Js',
-    icon: <SiNodeDotJs />,
+    icon: <SiNodedotjs />,
   },
   {
     name: 'Express.Js',
@@ -61,6 +61,10 @@ export const skills = [
   {
     name: 'PostgresSQL',
     icon: <SiPostgresql />,
+  },
+  {
+    name: 'MySQL',
+    icon: <SiMysql />,
   },
   {
     name: 'Wordpress',
@@ -99,7 +103,7 @@ export const learn = [
   },
   {
     name: 'Material UI',
-    icon: <SiMaterialUi />,
+    icon: <SiMaterialui />,
   },
   {
     name: 'Firebase',
@@ -119,7 +123,7 @@ export const learn = [
   },
   {
     name: 'Vue.Js',
-    icon: <SiVueDotJs />,
+    icon: <SiVuedotjs />,
   },
   {
     name: 'Sass',
@@ -127,7 +131,7 @@ export const learn = [
   },
   {
     name: 'Socket.Io',
-    icon: <SiSocketDotIo />,
+    icon: <SiSocketdotio />,
   },
 ]  
 
