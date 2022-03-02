@@ -18,7 +18,6 @@ function Projects() {
                 </a>
                 <p>{el.description}</p>
                 <a href={el.link} target='_blank'>    
-                  {/* <iframe src={el.link} title='Nexflit Clon'></iframe> */}
                   <object data={el.link}>Nexflit Clon</object>
                   <span>Visitar</span>
                 </a>
@@ -26,7 +25,7 @@ function Projects() {
               </div>
             )
           })}
-          <div className={styles.card} key='999'>
+          <div className={styles.card}>
             <h3>En desarrollo...</h3>
             <p>Próximamente...</p>
             <img src='' alt="" />
