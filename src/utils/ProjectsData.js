@@ -15,7 +15,7 @@ export const projects = [
     title: 'Weather-App',
     description: 'Aplicación desarrollada bajo React.Js con Redux para buscar información del clima de ciudades consumiendo datos desde una API externa.',
     link: 'https://reatcjs-weatherapp.web.app/',
-    githubRepo: 'https://github.com/lavalbuena357/weather-app'
+    githubRepo: 'https://github.com/lavalbuena357/current-weather-app'
   },
   {
     title: 'CRUD-App',

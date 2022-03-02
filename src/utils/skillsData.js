@@ -63,10 +63,6 @@ export const skills = [
     icon: <SiPostgresql />,
   },
   {
-    name: 'MySQL',
-    icon: <SiMysql />,
-  },
-  {
     name: 'Wordpress',
     icon: <SiWordpress />,
   },

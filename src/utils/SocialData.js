@@ -1,10 +1,7 @@
 import { 
     FaGithub, 
     FaLinkedinIn, 
-    FaWhatsapp, 
-    FaFacebook, 
-    FaInstagram, 
-    FaTwitter 
+    FaWhatsapp
 } from "react-icons/fa"; 
  
  export const social = [
@@ -22,22 +19,7 @@ import {
         icon: <FaWhatsapp/>,
         name: 'Whatsapp',
         link: 'tel:+573206172165'
-    },
-    // {
-    //     icon: <FaFacebook/>,
-    //     name: 'Facebook',
-    //     link: 'https://www.facebook.com/lavalbuena222/'
-    // },
-    // {
-    //     icon: <FaInstagram/>,
-    //     name: 'Instagram',
-    //     link: 'https://www.instagram.com/albert.vr/'
-    // },
-    // {
-    //     icon: <FaTwitter/>,
-    //     name: 'Twitter',
-    //     link: 'https://twitter.com/DunkelCuervo'
-    // }
+    }
 ]
 
 export default social
